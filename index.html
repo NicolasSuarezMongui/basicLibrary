@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="new_book">
+        <div class="input_data">
+            <input type="text" name="cover" id="urlCover" required autocomplete="none">
+            <label for="cover">URL Cover</label>
+        </div>
+        <div class="input_data">
+            <input type="text" name="title" id="bookTitle" required autocomplete="none">
+            <label for="title">Title</label>
+        </div>
+        <div class="input_data">
+            <input type="text" name="author" id="bookAuthor" required autocomplete="none">
+            <label for="author">Author</label>
+        </div>
+        <div class="input_data">
+            <input type="text" name="year" id="issueBook" required autocomplete="none">
+            <label for="year">Year of issue</label>
+        </div>
+        <div class="input_data_check">
+            <span>Available</span>
+            <label for="check" class="switch"> 
+                <input type="checkbox" name="check" id="check">
+                <span class="slider"></span>
+            </label>
+        </div>
+        <div class="input_data on_load">
+            <input type="text" name="user" id="userBook" required autocomplete="none">
+            <label for="user">On load to</label>
+        </div>
+        <div class="save">Save</div>
+        <div class="button cancel-save"><i class="fa-solid fa-xmark" style="color: #ffffff;"></i></div>
+    </div>
+    <div class="special"></div>
+    <div class="container">
+    </div>
+    <div class="actions">
+        <div class="button" id="add"><i class="fa-solid fa-plus" style="color: #ffffff;"></i></div>
+        <br>
+    <div class="button" id="del"><i class="fa-solid fa-xmark" style="color: #ffffff;"></i></div>
+    </div>
+    <script src="./app.js"></script>
+    <script src="https://kit.fontawesome.com/1d780724e5.js" crossorigin="anonymous"></script>
+</body>
+</html>
